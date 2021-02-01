@@ -1,0 +1,122 @@
+@media (max-width: 1200px)
+    .menu
+        font-size: 13px
+    .subheader_phonenum
+        margin-left: 45px
+    .promo
+        background-position-x: -350px
+        &_header
+            font-size: 50px  
+        &_subheader
+            font-size: 30px
+    .advantages_descr
+        width: 300px
+    .mobile_item
+        width: 300px
+    footer
+        .download_links
+            right: 5px
+            scale: 85%
+    .cities
+        background-position-x: -210px, 0px
+
+@media (max-width: 991px)
+    .menu
+        padding: 0px 20px
+        &_link
+            font-size: 13px
+    .subheader_logo
+        font-size: 12px
+    .promo
+        min-height: 720px
+        padding-bottom: 80px
+        background-position-x: -350px
+        &_header
+            font-size: 40px  
+        &_subheader
+            font-size: 25px
+        &_descr
+            font-size: 15px
+            margin-top: 20px
+        &_sendapp
+            margin-top: 80px
+    .mobile_item
+        width: 220px
+    .title
+        font-size: 32px
+    .advantages
+        min-height: 1140px
+        .container
+            .row
+                align-items: flex-start
+        &_container
+            margin-top: 20px
+            align-items: flex-start
+        &_descr
+            width: 225px
+            margin-left: 10px
+        &_indescrtitle
+            font-size: 15px
+    .ellips
+        width: 100px
+        height: 100px
+    .car_image
+        scale: 90%
+    footer
+        .download_links
+            right: -25px
+            scale: 75%
+            top: 33px
+        .link
+            width: 320px
+            &_main
+                font-size: 12px
+            &_second
+                font-size: 11px
+            &_language
+        .social
+            top: 30px
+        
+@media  (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0px
+        left: -100%
+        width: 50%
+        height: 100vh
+        transition: .4s all
+        flex-direction: column
+        justify-content: space-around
+        background-color: rgba(0, 0, 0, .8)
+        &_link
+            font-size: 20px
+        &_active
+            left: 0%
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            transition: .4s all
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    opacity: 0%
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                
+            
+@media  (max-width: 575px)
+    
